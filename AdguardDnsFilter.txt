@@ -1,3 +1,5 @@
+# Forked from https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
+
 ||doubleclick.net^
 ||adssubdomain.legitwebsite.com^
 ||5754909.com^
