@@ -1,0 +1,226 @@
+! Title: HaGeZi's White-/Allowlist
+! Description: The list contains incorrectly blocked domains that limit functionality
+! Homepage: https://github.com/hagezi/dns-blocklists
+! Issues: https://github.com/hagezi/dns-blocklists/issues
+! License: https://github.com/hagezi/dns-blocklists/blob/main/LICENSE.md
+! Expires: Updated regularly
+
+! Adblock-Detection
+! Videos
+||swankyrule.zomap.de^
+! Bild.de
+||tags.tiqcdn.com^
+||www.asadcdn.com^
+! Express.de Videos
+||player-feedback-v1.glomex.com^
+
+! Amazon AWS
+@@|aws.amazon.com^
+@@|bbuseruploads.s3.amazonaws.com^
+@@|kinesis.*.amazonaws.com^
+@@|s3.amazonaws.com^
+
+! Amazon Devices
+||d3p8zr0ffa9t17.cloudfront.net
+||device-metrics-us-2.amazon.com
+||device-metrics-us.amazon.com
+||acsechocaptiveportal.com^
+||avs-alexa*.amazon.com^
+||dxz5jxhrrzigf.cloudfront.net^
+||msh.amazon.co.uk^
+||web.diagnostic.networking.aws.dev^
+! https://github.com/Perflyst/PiHoleBlocklist/issues/138
+||mas-ext.amazon.com^
+
+! Amazon Shopping
+||*.amazon-adsystem.com^
+@@||images-amazon.com^
+||aax*.amazon-adsystem.com^
+@@|aax*.amazon.co.uk^
+@@|aax*.amazon.com^
+@@|aax*.amazon.com.be^
+@@|aax*.amazon.de^
+@@|aax*.amazon.es^
+@@|aax*.amazon.fr^
+@@|aax*.amazon.in^
+@@|aax*.amazon.it^
+||c.amazon-adsystem.com^
+@@|dp-gw-*.amazon.com^
+@@|fls-*.amazon-adsystem.com^
+@@|fls-*.amazon.ae^
+@@|fls-*.amazon.ca^
+@@|fls-*.amazon.cn^
+@@|fls-*.amazon.co.jp^
+@@|fls-*.amazon.co.uk^
+@@|fls-*.amazon.com^
+@@|fls-*.amazon.com.au^
+@@|fls-*.amazon.com.be^
+@@|fls-*.amazon.com.br^
+@@|fls-*.amazon.com.mx^
+@@|fls-*.amazon.de^
+@@|fls-*.amazon.es^
+@@|fls-*.amazon.fr^
+@@|fls-*.amazon.in^
+@@|fls-*.amazon.it^
+@@|fls-*.amazon.nl^
+@@|fls-*.amazon.sa^
+@@|fls-*.amazon.se^
+@@|fls-*.amazon.sg^
+@@|rcm-*.amazon.com^
+@@|rcm-*.amazon.de^
+@@|unagi-*.amazon.com^
+@@|unagi.amazon.cn^
+@@|unagi.amazon.co.jp^
+@@|unagi.amazon.co.uk^
+@@|unagi.amazon.com^
+@@|unagi.amazon.com.au^
+@@|unagi.amazon.com.be^
+@@|unagi.amazon.com.br^
+@@|unagi.amazon.de^
+@@|unagi.amazon.es^
+@@|unagi.amazon.fr^
+@@|unagi.amazon.in^
+@@|unagi.amazon.it^
+! CNAME fls-*.amazon.com
+@@||forester.a2z.com^
+! gateway.prod.*.forester.a2z.com
+! endpoint.prod.*.forester.a2z.com
+
+! Amazon Video
+@@||aiv-cdn.net^
+@@||aiv-cdn.net.c.footprint.net^
+@@||aiv-delivery.net^
+@@||amazonvideo.com^
+@@||atv-ext-*.amazon.com^
+@@||atv-ext.amazon.com^
+@@||atv-ps.amazon.com^
+@@||primevideo.com^
+@@||pv-cdn.net^
+! *.video.a2z.com
+
+! Certificates
+@@||digicert.com^
+@@||entrust.net^
+@@||geotrust.com^
+@@||lencr.org^
+@@||verisign.net^
+
+! Cloudflare
+@@|cdn.cloudflare.net^
+@@|cdnjs.cloudflare.co^
+
+! Discord
+||discord.com^
+||discord.gg^
+||discord.media^
+||discordapp.com^
+||discordapp.net^
+||discordstatus.com^
+
+! Disney+
+||disney-plus.net^
+||www.disney-plus.net^
+||disneyplus.com^
+||www.disneyplus.com^
+||disneyplus.com.ssl.sc.omtrdc.net
+||dss.map.fastly.net^
+||dssott.com^
+||dssott.com.akamaized.net^
+||search-api-disney.bamgrid.com^
+||cd-dmgz.bamgrid.com^
+||dvf2rc3rx4ypk.cloudfront.net^
+
+! Disqus
+@@|blog.disqus.com^
+@@|c.disquscdn.com^
+@@|d231vab146qzfb.cloudfront.net^
+
+! Dropbox
+@@|db.tt^
+@@|www.db.tt^
+@@|dl.dropbox.com^
+@@|dl.dropboxusercontent.com^
+@@|dropbox-dns.com^
+@@|www.dropbox-dns.com^
+@@|dropbox.com^
+@@|www.dropbox.com^
+@@|dropbox.tech^
+@@|www.dropbox.tech^
+@@|dropboxapi.com^
+@@|www.dropboxapi.com^
+@@|dropboxbusiness.com^
+@@|www.dropboxbusiness.com^
+@@|dropboxcaptcha.com^
+@@|www.dropboxcaptcha.com^
+@@|dropboxforum.com^
+@@|www.dropboxforum.com^
+@@|dropboxforums.com^
+@@|www.dropboxforums.com^
+@@|dropboxinsiders.com^
+@@|www.dropboxinsiders.com^
+@@|dropboxmail.com^
+@@|www.dropboxmail.com^
+@@|dropboxpartners.com^
+@@|www.dropboxpartners.com^
+@@|dropboxpayments.com^
+@@|www.dropboxpayments.com^
+@@|dropboxstatic.com^
+@@|www.dropboxstatic.com^
+@@|dropboxteam.com^
+@@|www.dropboxteam.com^
+@@|dropboxusercontent.com^
+@@|www.dropboxusercontent.com^
+@@|getdropbox.com^
+@@|www.getdropbox.com^
+@@|ns1.dropbox.com^
+@@|ns2.dropbox.com^
+
+!Facebook
+||*graph-video.facebook.com^
+||*graph.facebook.com^
+||*graph.instagram.com^
+||api.facebook.com^
+||chat-*.facebook.com^
+||connect.facebook.com^
+||connect.facebook.net^
+||edge-mqtt.facebook.com^
+||external-*.xx.fbcdn.net^
+||facebook.com^
+||www.facebook.com^
+||gateway.facebook.com^
+||i.instagram.com^
+||instagram.com^
+||www.instagram.com^
+||lm.facebook.com^
+||mqtt*.facebook.com^
+||msgr*.facebook.com^
+||platform.instagram.com^
+||scontent-*.xx.fbcdn.net^
+||star*.facebook.com^
+||web.facebook.com^
+
+! Facebook CDN
+||cdninstagram.com^
+||fbcdn.net^
+
+! Github
+@@||ghcr.io^
+@@||github.com^
+@@|github.io^
+@@|www.github.io^
+||github.map.fastly.net^
+@@||githubapp.com^
+@@||githubassets.com^
+@@||gitlab.com^
+@@|githubusercontent.com^
+@@|www.githubusercontent.com^
+@@|raw.githubusercontent.com^
+
+
+! Huawei
+||dbankcloud.cn^
+||www.dbankcloud.cn^
+||dbankcloud.ru^
+||www.dbankcloud.ru^
+||dbankcloud.com^
+||www.dbankcloud.com^
