@@ -8320,3 +8320,5 @@
 ||www-googletagmanager.l.google.com^
 ||www.googletagservices.com^
 ||metric.gstatic.com^
+||c.tenor.com^
+||tenor.com^
